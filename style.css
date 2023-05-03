@@ -34,3 +34,27 @@ img{
 .center{
     align-items: center;
 }
+.circle{
+    border: 2px solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.lightblue{
+    border-color: #5394FF;
+}
+.grey{
+    border-color: #EDEDEE;
+}
+.vertical-card{
+    height: 345px;
+    width: 234px;
+    background-color: red;
+}
+.horizontal-card{
+    height: 100px;
+    width:calc( 234px * 3) ;
+    background-color: orange;
+
+}
