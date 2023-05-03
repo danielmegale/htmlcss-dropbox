@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.debug .border{
+    border: 2px dashed black;
+}
+/* Generals */
+header{
+    height: 80px;
+    background-color: red;
+}
+/* Utils */
