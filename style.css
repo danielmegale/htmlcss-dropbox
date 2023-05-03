@@ -3,8 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+/* Generals */
 body{
-    background-color: aqua;
+    background-color:rgb(138, 189, 131);
 }
 .debug .border{
     border: 2px dashed black;
@@ -13,16 +14,21 @@ body{
     max-width:900px;
 	margin:0px auto;
 }
-/* Generals */
 header{
     background-color: red;
 }
 img{
     max-width: 200px;
 }
+.pastel-blue{
+    background-color:#B4D0E7;
+}
 /* Utils */
 .flex{
     display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
 }
 .main-header{
     height: 300px;
@@ -48,13 +54,16 @@ img{
     border-color: #EDEDEE;
 }
 .vertical-card{
-    height: 345px;
-    width: 234px;
+    width:calc( 100% / 3 );
     background-color: red;
 }
 .horizontal-card{
     height: 100px;
-    width:calc( 234px * 3) ;
+    width:calc( (900px- 80%) * 3 );
     background-color: orange;
-
+}
+.free-trial{
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
 }
