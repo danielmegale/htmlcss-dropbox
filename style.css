@@ -9,9 +9,28 @@ body{
 .debug .border{
     border: 2px dashed black;
 }
+.small-container{
+    max-width:900px;
+	margin:0px auto;
+}
 /* Generals */
 header{
-    height: 80px;
     background-color: red;
 }
+img{
+    max-width: 200px;
+}
 /* Utils */
+.flex{
+    display: flex;
+}
+.main-header{
+    height: 300px;
+    background-color:#B4D0E7;
+}
+.col{
+    flex-direction: column;
+}
+.center{
+    align-items: center;
+}
