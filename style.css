@@ -4,9 +4,6 @@
 	box-sizing: border-box;
 }
 /* Generals */
-body{
-    background-color:rgb(138, 189, 131);
-}
 .debug .border{
     border: 2px dashed black;
 }
@@ -18,25 +15,42 @@ body{
     max-width: 1080px;
 }
 header{
-    background-color: red;
+    padding: 20px 15px;
 }
-img{
-    max-width: 200px;
-}
-a{
+ header a{
     text-decoration: none;
-    color: black ;
+    color: black;
+    padding: 0 9px 0 9px;
+}
+h1{
+    padding:50px 0;
+    font-size: 70px;
+}
+h2{
+    font-size:40px;
+    padding-bottom: 20px;
+}
+h3{
+
+}
+main{
+    margin-top: 100px;
 }
 /* Utils */
 .flex{
     display: flex;
 }
+.img-header{
+    width:200px;
+}
 .wrap{
     flex-wrap: wrap;
 }
 .main-header{
-    height: 300px;
+    height: 550px;
     background-color:#B4D0E7;
+    margin-top: 60px;
+    padding: 0px;
 }
 .col{
     flex-direction: column;
@@ -44,12 +58,16 @@ a{
 .center{
     align-items: center;
 }
+.space-between{
+    justify-content: space-between;
+}
 .circle{
-    border: 2px solid;
+    border: 4px solid;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     display: inline-block;
+    vertical-align: middle;
 }
 .lightblue{
     border-color: #5394FF;
@@ -77,4 +95,66 @@ a{
 .separator{
     height: 1px;
     border: 1px solid #999999;
+}
+.small-separator{
+    height: 1px;
+    width: 65px;
+    border: 1px solid #999999;
+}
+.button{
+    padding: 7px 15px;
+    border-radius: 0px;
+    background-color:#0061FF;
+    border-width: 0px;
+    color: white;
+    cursor: pointer;
+}
+.height100{
+    height:100%;
+}
+.small-content{
+    width:32%;
+}
+.large-content{
+    width: 70%;
+}
+.line-height{
+    line-height: 20px;
+}
+.margin-bottom{
+    margin-bottom: 25px;
+}
+.fa-arrow-down{
+    font-size: 30px;
+}
+.vertical-align{
+    vertical-align: middle;
+}
+.padding-bot{
+    padding-bottom: 20px;
+}
+.text-align{
+    text-align: center;
+    border: 1px solid gray;
+}
+.line-height-xs{
+    line-height: 20px;
+}
+.line-height-s{
+    line-height: 30px;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+}
+.card{
+    border: 1px solid #999999;
+    padding-left: 20px;
+    line-height: 10px;
+}
+.padding-card{
+    padding-left: 20px;
 }
