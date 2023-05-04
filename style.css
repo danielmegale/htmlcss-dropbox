@@ -14,14 +14,18 @@ body{
     max-width:900px;
 	margin:0px auto;
 }
+.large-container{
+    max-width: 1080px;
+}
 header{
     background-color: red;
 }
 img{
     max-width: 200px;
 }
-.pastel-blue{
-    background-color:#B4D0E7;
+a{
+    text-decoration: none;
+    color: black ;
 }
 /* Utils */
 .flex{
@@ -53,6 +57,9 @@ img{
 .grey{
     border-color: #EDEDEE;
 }
+.pastel-blue{
+    background-color:#B4D0E7;
+}
 .vertical-card{
     width:calc( 100% / 3 );
     background-color: red;
@@ -66,4 +73,8 @@ img{
     height: 100px;
     justify-content: space-between;
     align-items: center;
+}
+.separator{
+    height: 1px;
+    border: 1px solid #999999;
 }
