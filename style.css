@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: 'Anuphan', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 /* Generals */
 .debug .border{
@@ -13,11 +16,12 @@
 }
 .large-container{
     max-width: 1080px;
+    margin: 0px auto;
 }
 header{
     padding: 20px 15px;
 }
- header a{
+header a{
     text-decoration: none;
     color: black;
     padding: 0 9px 0 9px;
@@ -30,11 +34,11 @@ h2{
     font-size:40px;
     padding-bottom: 20px;
 }
-h3{
-
-}
 main{
-    margin-top: 100px;
+    margin-top: 120px;
+}
+img{
+    display: block;
 }
 /* Utils */
 .flex{
@@ -47,7 +51,7 @@ main{
     flex-wrap: wrap;
 }
 .main-header{
-    height: 550px;
+    height: 570px;
     background-color:#B4D0E7;
     margin-top: 60px;
     padding: 0px;
@@ -81,11 +85,6 @@ main{
 .vertical-card{
     width:calc( 100% / 3 );
 }
-.horizontal-card{
-    height: 100px;
-    width:calc( (900px- 80%) * 3 );
-    background-color: orange;
-}
 .free-trial{
     height: 100px;
     justify-content: space-between;
@@ -104,10 +103,17 @@ main{
 .button{
     padding: 7px 15px;
     border-radius: 0px;
-    background-color:#0061FF;
     border-width: 0px;
-    color: white;
     cursor: pointer;
+}
+.blue-button{
+    background-color:#0061FF;
+    color: white;
+}
+.white-button{
+    background-color:rgba(0,0,0,0);
+    border: 1px solid black;
+    color: black;
 }
 .large-button{
     padding: 7px 60px;
@@ -116,7 +122,7 @@ main{
     height:100%;
 }
 .small-content{
-    width:32%;
+    width:45%;
 }
 .large-content{
     width: 70%;
@@ -127,15 +133,17 @@ main{
 .margin-bottom{
     margin-bottom: 25px;
 }
+.margin-top{
+    margin-top: 20px;
+}
+.margin-top100{
+    margin-top: 100px;
+}
 .fa-arrow-down{
     font-size: 30px;
 }
 .text-align{
     text-align: center;
-    border: 1px solid gray;
-}
-.padding-m{
-    padding: 10px;
 }
 .padding-right{
     padding-right: 30px;
@@ -155,6 +163,12 @@ main{
 .padding-s{
     padding: 30px 0 0;
 }
+.padding-m{
+    padding: 10px;
+}
+.padding-l{
+    padding: 30px;
+}
 .navbar{
     position: fixed;
     left: 0;
@@ -165,6 +179,9 @@ main{
 .card{
     padding:0  20px;
     line-height: 10px;
+}
+.large-card{
+    padding: 20px;
 }
 i[class^="fa"]{
     padding-right: 10px;
@@ -179,11 +196,21 @@ i[class^="fa"]{
     gap: 30px;
 }
 .button-space{
-    margin-top:10px;
+    margin-top:20px;
 }
-
-
-
-
-
+.bot-gray{
+    border-bottom:1px solid #999999;
+}
+.row-find{
+   
+}
+.col-find{
+    width: 50%;
+}
+.font-size16{
+    font-size: 16px;
+}
+.cards{
+    width: calc( 100% / 3 - 20px );
+}
 /* link blu #2100F1 */

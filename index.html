@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Fredoka:wght@400;500;600;700&family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
     <link rel="icon" href="img/favicon.ico">
     <title>DropBox</title>
 </head>
-<body class="ebug">
+<body class="debug">
     <header class="border flex space-between navbar">
         <div class="border flex center">
             <img class="border" src="img/logo-small.png" alt="">
@@ -23,16 +26,16 @@
             <a href="">Supporto</a>
             <a href="">Contatta l'ufficio vendite</a>
             <a href="">Accedi</a>
-            <button class="button">Inizia</button>
+            <button class="button blue-button">Inizia</button>
         </div>
     </header>
     <header class="main-header">
-        <div class="border small-container ">
+        <div class="border large-container ">
             <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             <div class="border flex space-between height100">
                 <div class="small-content line-height">
                 <p class="border margin-bottom">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibli dallo stesso posto.Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo inteliggente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                <button class="button margin-bottom">Inizia la tua prova gratuita</button>
+                <button class="button blue-button margin-bottom">Inizia la tua prova gratuita</button>
                 <p class="margin-bottom">Annulla in qualsiasi momento</p>
                 <i class="fa-solid fa-arrow-down margin-bottom"></i>
                 </div>
@@ -49,28 +52,28 @@
                 <span class="circle grey"></span>
                 <span>Fatturazione annuale</span>
             </div>
-            <div class="border padding-s gap"><!--invoices-->
+            <div class="border padding-s flex col gap"><!--invoices-->
                 <div class="border flex gap">
                     <div class="border vertical-card border-gray">
-                        <div class="text-align padding-card padding-m">
+                        <div class="text-align padding-card padding-m bot-gray">
                             <i class="fa-solid fa-user"></i>
                             <span>Singolo</span>
                         </div>
                         <div class="card"><!--professional-->
                             <h3 class="padding-s">Professional</h3>
-                            <p class="padding-xs">€12.00</p>
+                            <h5 class="padding-xs">€12.00</h5>
                             <p class="padding-xxs">/mese</p>
                             <div class="padding-s">
                                 <i class="fa-solid fa-user"></i><span>1 utente</span>
                             </div>
-                            <div class="padding-xs">
-                            <i class="fa-solid fa-folder"></i><span>5 TB di spazio di archiviazione</span>
+                            <div class="padding-xs flex">
+                            <i class="fa-solid fa-folder"></i><span class="line-height">5 TB di spazio di archiviazione</span>
                             </div>
                             <div class="padding-xs flex">
                                 <i class="fa-sharp fa-solid fa-share-nodes"></i><span class="line-height"> Funzioni di produttività premium e condivisione file semplice e sicura</span>
                             </div>
                             <div class="padding-s text-align button-space">
-                                <button class="button">Prova gratis per 30 giorni</button>
+                                <button class="button blue-button">Prova gratis per 30 giorni</button>
                             </div>
                             <div class="padding-s">
                                 <p>oppure <a href="">acquista ora</a></p>
@@ -88,25 +91,25 @@
                         </div>
                     </div>
                     <div class="border vertical-card border-gray">
-                        <div class="text-align padding-card padding-m">
+                        <div class="text-align padding-card padding-m bot-gray">
                             <i class="fa-solid fa-users"></i>
                             <span>Team</span>
                         </div>
                         <div class="card"><!--Advanced-->
                             <h3 class="padding-s">Advanced</h3>
-                            <p class="padding-xs">€18.00</p>
+                            <h5 class="padding-xs">€18.00</h5>
                             <p class="padding-xxs">/utente/mese</p>
                             <div class="padding-s">
                                 <i class="fa-solid fa-user"></i><span>3 o più utenti</span>
                             </div>
-                            <div class="padding-xs">
+                            <div class="padding-xs flex line-height">
                                 <i class="fa-solid fa-folder"></i><span>Tutto lo spazio di cui ha bisogno il tuo team</span>
                             </div>
                             <div class="padding-xs flex">
                                 <i class="fa-sharp fa-solid fa-share-nodes"></i><span class="line-height"> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
                             </div>
-                            <div class="padding-s text-align">
-                                <button class="button">Prova gratis per 30 giorni</button>
+                            <div class="padding-s text-align margin-top">
+                                <button class="button blue-button">Prova gratis per 30 giorni</button>
                             </div>
                             <div class="padding-s">
                                 <p>oppure <a href="">acquista ora</a></p>
@@ -136,25 +139,25 @@
                         </div>
                     </div>
                     <div class="border vertical-card border-gray ">
-                        <div class="text-align padding-card padding-m">
+                        <div class="text-align padding-card padding-m bot-gray">
                             <i class="fa-solid fa-building"></i>
                             <span>Azienda</span>
                         </div>
                         <div class="card"><!--Enterprise-->
                             <h3 class="padding-s">Enterprise</h3>
-                            <p class="padding-xs">Contattaci</p>
+                            <h5 class="padding-xs">Contattaci</h5>
                             <p class="padding-xxs">-</p>
                             <div class="padding-s">
                                 <i class="fa-solid fa-user"></i><span>10 o più utenti</span>
                             </div>
-                            <div class="padding-xs">
+                            <div class="padding-xs flex line-height">
                             <i class="fa-solid fa-folder"></i><span>Soluzione personalizzabili per la tua azienda</span>
                             </div>
                             <div class="padding-xs flex">
                                 <i class="fa-sharp fa-solid fa-share-nodes"></i><span class="line-height">Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
                             </div>
                             <div class="padding-s text-align">
-                                <button class="button large-button">Contattaci</button>
+                                <button class="button blue-button large-button">Contattaci</button>
                             </div>
                             <div class="padding-s">
                                 <p>oppure<a href="">acquista ora</a></p>
@@ -176,55 +179,70 @@
                         </div>
                     </div>
                 </div>
-                <div class="border horizontal-card  flex col">
-                    <div>sdasd</div>
-                    <div>sds</div>
+                <div class="border flex col border-gray">
+                    <div class="text-align bot-gray padding-m">
+                        <i class="fa-solid fa-building"></i>
+                        <span>Team</span>
+                    </div>
+                    <div class="flex space-between card large-card">
+                        <div class="line-height large-content">
+                            <h3>Enterprise</h3>
+                            <h5 class="padding-xxs">Contatta l'ufficio vendite per i prezzi</h5>
+                            <p class="padding-s">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione si qualsiasi scala.
+                            </p>
+                        </div>
+                        <div>
+                            <button class="button blue-button">Contatta l'ufficio vendite</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="small-container"><!--find partner-->
-            <div class="border flex">
-                <img src="img/partner.png" alt="">
-                <div>
-                    <h4>dsds</h4>
-                    <p>sddfgdfghgth</p>
-                    <button>hhtrtdftg</button>
+            <div class="border flex row-find margin-top100">
+                <img class="col-find" src="img/partner.png" alt="">
+                <div class=" border col-find padding-l">
+                    <h3>Entra in contatto con un partener Dropbox</h3>
+                    <p class="padding-s">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                    <div class="padding-s">
+                        <button class="button white-button font-size16">Trova un partner</button>
+                    </div>
                 </div>
             </div>
         </section>
         <section class=" border small-container"> <!--cards-->
-            <div clas="small-container">
-                <h2>edrfsdfdst</h2>
-                <div class="flex wrap">
-                    <div class=" border vertical-card flex col"><!--card-->
+            <div class="small-container margin-top100">
+                <h2>Esegui più operazioni con DropBox Business</h2>
+                <div class="flex wrap gap">
+                    <div class=" border cards flex col"><!--card-->
                         <img src="img/business-feature-switching-tools.png" alt="">
-                        <h4>sdsada</h4>
-                        <p>sdsdsads</p>
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p class="padding-s">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Papee direttamente da Dropbox </p>
                     </div>
-                    <div class=" border vertical-card flex col"><!--card-->
-                        <img src="img/business-feature-switching-tools.png" alt="">
-                        <h4>sdsada</h4>
-                        <p>sdsdsads</p>
+                    <div class=" border cards flex col"><!--card-->
+                        <img src="img/business-feature-send-files-it.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p class="padding-s">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Papee direttamente da Dropbox </p>
                     </div>
-                    <div class=" border vertical-card flex col"><!--card-->
-                        <img src="img/business-feature-switching-tools.png" alt="">
-                        <h4>sdsada</h4>
-                        <p>sdsdsads</p>
+                    <div class=" border cards flex col"><!--card-->
+                        <img src="img/business-feature-coordinate-it.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p class="padding-s">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Papee direttamente da Dropbox </p>
                     </div>
-                    <div class=" border vertical-card flex col"><!--card-->
-                        <img src="img/business-feature-switching-tools.png" alt="">
-                        <h4>sdsada</h4>
-                        <p>sdsdsads</p>
+                    <div class=" border cards flex col"><!--card-->
+                        <img src="img/business-feature-integrations-it.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p class="padding-s">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Papee direttamente da Dropbox </p>
                     </div>
-                    <div class=" border vertical-card flex col"><!--card-->
-                        <img src="img/business-feature-switching-tools.png" alt="">
-                        <h4>sdsada</h4>
-                        <p>sdsdsads</p>
+                    <div class=" border cards flex col"><!--card-->
+                        <img src="img/business-feature-multi-device.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p class="padding-s">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Papee direttamente da Dropbox </p>
                     </div>
-                    <div class=" border vertical-card flex col"><!--card-->
-                        <img src="img/business-feature-switching-tools.png" alt="">
-                        <h4>sdsada</h4>
-                        <p>sdsdsads</p>
+                    <div class=" border cards flex col"><!--card-->
+                        <img src="img/business-feature-security.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p class="padding-s">Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Papee direttamente da Dropbox </p>
                     </div>
                 </div>
             </div>
