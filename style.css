@@ -80,7 +80,6 @@ main{
 }
 .vertical-card{
     width:calc( 100% / 3 );
-    background-color: red;
 }
 .horizontal-card{
     height: 100px;
@@ -100,6 +99,7 @@ main{
     height: 1px;
     width: 65px;
     border: 1px solid #999999;
+    margin: 30px 0 ;
 }
 .button{
     padding: 7px 15px;
@@ -108,6 +108,9 @@ main{
     border-width: 0px;
     color: white;
     cursor: pointer;
+}
+.large-button{
+    padding: 7px 60px;
 }
 .height100{
     height:100%;
@@ -127,21 +130,30 @@ main{
 .fa-arrow-down{
     font-size: 30px;
 }
-.vertical-align{
-    vertical-align: middle;
-}
-.padding-bot{
-    padding-bottom: 20px;
-}
 .text-align{
     text-align: center;
     border: 1px solid gray;
 }
-.line-height-xs{
-    line-height: 20px;
+.padding-m{
+    padding: 10px;
 }
-.line-height-s{
-    line-height: 30px;
+.padding-right{
+    padding-right: 30px;
+}
+.padding-bot{
+    padding:30px 0 100px;
+}
+.padding-card{
+    padding-left: 20px;
+}
+.padding-xxs{
+    padding: 15px 0 0;
+}
+.padding-xs{
+    padding: 20px 0 0;
+}
+.padding-s{
+    padding: 30px 0 0;
 }
 .navbar{
     position: fixed;
@@ -151,10 +163,27 @@ main{
     background-color: #fff;
 }
 .card{
-    border: 1px solid #999999;
-    padding-left: 20px;
+    padding:0  20px;
     line-height: 10px;
 }
-.padding-card{
-    padding-left: 20px;
+i[class^="fa"]{
+    padding-right: 10px;
 }
+.blue-text{
+    color:#0061FF ;
+}
+.border-gray{
+    border: 1px solid #999999;
+}
+.gap{
+    gap: 30px;
+}
+.button-space{
+    margin-top:10px;
+}
+
+
+
+
+
+/* link blu #2100F1 */
