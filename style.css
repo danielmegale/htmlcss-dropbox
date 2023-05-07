@@ -201,9 +201,6 @@ i[class^="fa"]{
 .bot-gray{
     border-bottom:1px solid #999999;
 }
-.row-find{
-   
-}
 .col-find{
     width: 50%;
 }
@@ -213,4 +210,59 @@ i[class^="fa"]{
 .cards{
     width: calc( 100% / 3 - 20px );
 }
+.square{
+    height:50%;
+}
+.img-square{
+    width: 100%;
+    padding: 65px;
+    
+}
+.flex-basis33{
+    flex-basis: calc( 100% / 3 );
+}
+.flex-basis50{
+    width: 50%;
+}
+.square-green{
+    background-color: #A2D39B;
+}
+.sqaure-Bordeaux{
+background-color:#61082B;
+}
+.square-blue{
+    background-color: #0093CE;
+}
+.sqaure-red{
+    background-color: #FF1C1C;
+}
+.sqaure-darkred{
+    background-color: #D5001F ;
+}
+.square-darkblue{
+    background-color: #0D2481;
+}
+.square-lightblue{
+    background-color: #B4D0E7;
+}
+.square-yellow{
+    background-color: #FFD830;
+}
+.background-white{
+    background-color: #f5f5f558;
+}
+.prova{
+    display: inline-block;
+    padding-bottom: 0px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.svg{
+    filter: invert(1);
+}
 /* link blu #2100F1 */
+
