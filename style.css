@@ -40,6 +40,12 @@ main{
 img{
     display: block;
 }
+ul{
+    list-style: none;
+    padding: 10px 0;
+    width: 200px;
+    line-height: 40px;
+}
 /* Utils */
 .flex{
     display: flex;
@@ -129,6 +135,9 @@ img{
 }
 .line-height{
     line-height: 20px;
+}
+.line-height50{
+    line-height: 50px;
 }
 .margin-bottom{
     margin-bottom: 25px;
@@ -279,5 +288,15 @@ background-color:#61082B;
 }
 .none{
     display: none;
+}
+.footer-black{
+    background-color: black;
+    color: #fff;
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
 }
 /* link blu #2100F1 */
