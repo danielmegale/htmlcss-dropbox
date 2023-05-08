@@ -111,6 +111,16 @@ ul{
     border-radius: 0px;
     border-width: 0px;
     cursor: pointer;
+    border:5px solid transparent;
+}
+.button:hover{
+    border: 5px solid rgba(255,255,255,0.5);
+}
+.white-button:hover{
+    border: 2px solid rgba(0,0,0,0.5);
+}
+.button:active{
+    transform: translateY(4px);
 }
 .blue-button{
     background-color:#0061FF;
@@ -187,6 +197,7 @@ ul{
     right: 0;
     top: 0;
     background-color: #fff;
+    z-index: 1;
 }
 .card{
     padding:0  20px;
@@ -227,8 +238,7 @@ i[class^="fa"]{
 }
 .img-square{
     width: 100%;
-    padding: 65px;
-    
+    padding: 65px;  
 }
 .flex-basis33{
     flex-basis: calc( 100% / 3 );
@@ -286,7 +296,19 @@ background-color:#61082B;
 .color-bordeaux{
     color: #61082B;
 }
+.border-box{
+    border:22px solid transparent; 
+}
+.border-box:hover{
+    border: 22px solid rgba(255,255,255,0.5);
+}
 .none{
+    display: none;
+}
+.block:hover .none{
+    display: block;
+}
+.block:hover .hover{
     display: none;
 }
 .footer-black{
